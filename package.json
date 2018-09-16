@@ -1,0 +1,17 @@
+{
+  "name": "exercise-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "nodemon toBinary.test.js | tap-spec",
+    "test": "tape toBinary.test.js | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
